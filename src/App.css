@@ -1,38 +1,66 @@
+@font-face {
+  font-family: 'neonderthawregular';
+  src: url('./fonts/neonderthaw-regular-webfont.woff2') format('woff2'),
+       url('./fonts/neonderthaw-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root{
+  width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slider-single-content {
+  box-shadow: none !important;
+}
+
+body {
+  background-color: #2B303A;
+  color: #00DADB;
+  margin: 0;
+  border: 0;
+  font-family:'Courier New', Courier, monospace;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -20px;
+  right: -20px; 
+  overflow: scroll;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  
+}
+.profile-content > h1 {
+  font-family: neonderthawregular;
+  font-size: 4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel {
+  height: 383px;
+  margin-bottom: 20px;
+}
+.about {
+  font-family:'Courier New', Courier, monospace;
+}
+.color {
+  color: #FF28B9;
+  color: #C3017E;
+  color: #00313F;
+  color: #00738E;
+  color: #00DADB;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  background-color: #FF28B9;
+  opacity: 50%;
 }
+
