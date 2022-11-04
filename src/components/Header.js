@@ -35,8 +35,8 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <li>About Me</li>
-                    <li>Skills</li>
+                    <li><a href='#about'>About Me</a></li>
+                    <li><a href='#skills'>Skills</a></li>
                     <li>Projects</li>
                 </ul>
             </nav>

@@ -2,11 +2,11 @@ import React from 'react'
 
 function Skills() {
     return (
-        <section className='experience'>
+        <section id='skills' className='skills'>
             <h2>Skills</h2>
-            <div className='exprienceDetails'>
-                <h3>Frontend Development</h3>
+            <div className='skills-content'>
                 <div>
+                    <h3>Frontend Development</h3>
                     <div>JAVASCRIPT</div>
                     <div>HTML</div>
                     <div>CSS</div>
@@ -14,10 +14,8 @@ function Skills() {
                     <div>REACT</div>
                     <div>MATERIALIZE</div>
                 </div>
-            </div>
-            <div>
-                <h3>Backend Development</h3>
                 <div>
+                    <h3>Backend Development</h3>
                     <div>NODE.JS</div>
                     <div>EXPRESS.JS</div>
                     <div>MONGOOSE</div>
