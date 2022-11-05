@@ -2,16 +2,12 @@
 import './App.css';
 import "./fonts/neonderthaw-regular-webfont.woff"
 import "./fonts/neonderthaw-regular-webfont.woff2"
-import Header from './components/Header';
-import About from './components/About';
-import Skills from './components/Skills';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <Skills />
+      <Main />
     </div>
   );
 }

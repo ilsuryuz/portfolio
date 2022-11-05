@@ -12,13 +12,14 @@
     overflow: hidden;
     position: relative;
 }
+
 .slider-single-content {
   box-shadow: none !important;
 }
 
 body {
-  background-color: #2B303A;
-  color: #00DADB;
+  background-color: black;
+  color: #28D7FE;
   margin: 0;
   border: 0;
   font-family:'Courier New', Courier, monospace;
@@ -38,15 +39,52 @@ body {
   overflow-x: hidden;
   margin: 0 1fr 0 1fr;
 }
-.profile-content > h1 {
+
+.main-content{
+  padding: 0 50px 0 50px;
+  background-color: rgb(22, 22, 22);
+  width: 70vw ;
+}
+.profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.neonFont {
   font-family: neonderthawregular;
   font-size: 4rem;
 }
 
 .carousel {
-  height: 383px;
+  height: 400px;
+  width: 500px;
   margin-bottom: 20px;
+  
 }
+
+.pc-grid {
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 20px;
+}
+.logo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  color: inherit;
+  text-decoration: none;
+}
+.md {
+  font-size: 64px;
+}
+
 .color {
   color: #FF28B9;
   color: #C3017E;
@@ -77,6 +115,7 @@ nav > ul > li {
 .about-content {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: rgba(195, 1, 126, .5);
 }
 .about-content > p {
@@ -90,8 +129,56 @@ nav > ul > li {
 .skills-content {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .skills-content > div {
   margin: 0 20px 0 20px
 }
 
+
+.flux {
+  color: #426DFB;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+@keyframes fluxHover {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.logo-header:hover {
+  color: #FB4264;
+  text-shadow: 0 0 3vw #F40A35;
+  transition-delay: 50ms;
+  animation: fluxHover 2s linear infinite;
+  -moz-animation: fluxHover 2s linear infinite;
+  -webkit-animation: fluxHover 2s linear infinite;
+  -o-animation: fluxHover 2s linear infinite;
+  animation-delay: 50ms;
+}

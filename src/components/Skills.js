@@ -27,6 +27,7 @@ function Skills() {
                     <div>FIREBASE</div>
                 </div>
             </div>
+            <hr />
         </section>
     )
 }

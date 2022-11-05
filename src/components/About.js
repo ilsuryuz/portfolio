@@ -14,6 +14,7 @@ function About() {
                 </p>
                 <img src='shot.jpg' />
             </div>
+            <hr />
         </section>
     )
 }
