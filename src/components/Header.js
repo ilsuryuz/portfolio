@@ -2,7 +2,7 @@ import React from 'react'
 import Typewriter from 'typewriter-effect'
 import { Carousel } from '3d-react-carousal'
 import { IonIcon } from '@ionic/react'
-import { logoGithub, logoLinkedin } from 'ionicons/icons'
+import { logoGithub, logoLinkedin, idCard, fileTrayStacked, codeWorking, caretUpCircle } from 'ionicons/icons'
 function Header() {
     let slides = [
         <img className="profile" src="1.png" alt="1" />,
@@ -12,7 +12,7 @@ function Header() {
     return (
         <header>
             <div className='profile-content flux'>
-                <h1 className='neonFont'>Ilsur Yuzlikeyev</h1>
+                <h1 id='totop' className='neonFont'>Ilsur Yuzlikeyev</h1>
                 <div className='pc-grid'>
                     <div className='logo'>
                         <a className='logo-header logo-github' target="_blank" rel="noopener noreferrer" href="https://github.com/ilsuryuz">
@@ -52,9 +52,21 @@ function Header() {
             <hr />
             <nav>
                 <ul>
-                    <li><a href='#about'>About Me</a></li>
-                    <li><a href='#skills'>Skills</a></li>
-                    <li>Projects</li>
+                    <li>
+                        <IonIcon icon={caretUpCircle} />
+                        <a href='#totop'>To Top</a>
+                    </li>
+                    <li>
+                        <IonIcon icon={idCard} />
+                        <a href='#about'>About Me</a>
+                    </li>
+                    <li>
+                        <IonIcon icon={fileTrayStacked} />
+                        <a href='#skills'>Skills</a></li>
+                    <li>
+                        <IonIcon icon={codeWorking} />
+                        Projects
+                    </li>
                 </ul>
             </nav>
         </header>
