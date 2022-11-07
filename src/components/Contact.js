@@ -18,7 +18,7 @@ function Contact() {
   };
 
   return (
-    <section className='contact'>
+    <section id='contact' className='contact'>
       <h2>Contact Me</h2>
       <hr />
       <h4>Reach out using the form below or email me at ilsuryuzdev@gmail.com</h4>
@@ -46,6 +46,7 @@ function Contact() {
           <input className='form-button' type="submit" value="Send" />
         </form>
       </div>
+      <hr />
     </section>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Typewriter from 'typewriter-effect'
 import { Carousel } from '3d-react-carousal'
 import { IonIcon } from '@ionic/react'
-import { logoGithub, logoLinkedin, idCard, fileTrayStacked, codeWorking, caretUpCircle } from 'ionicons/icons'
+import { logoGithub, logoLinkedin, idCard, fileTrayStacked, codeWorking, caretUpCircle, document, mail } from 'ionicons/icons'
 function Header() {
     let slides = [
         <img className="profile" src="1.png" alt="1" />,
@@ -57,6 +57,10 @@ function Header() {
                         <a href='#totop'>To Top</a>
                     </li>
                     <li>
+                        <IonIcon icon={document} />
+                        <a href='#resume'>Resume</a>
+                    </li>
+                    <li>
                         <IonIcon icon={idCard} />
                         <a href='#about'>About Me</a>
                     </li>
@@ -65,7 +69,11 @@ function Header() {
                         <a href='#skills'>Skills</a></li>
                     <li>
                         <IonIcon icon={codeWorking} />
-                        Projects
+                        <a href='#projects'>Showroom</a>
+                    </li>
+                    <li>
+                        <IonIcon icon={mail} />
+                        <a href='#contact'>Contact Me</a>
                     </li>
                 </ul>
             </nav>
