@@ -286,7 +286,7 @@ h2 {
 
 .contact-content > form > input, textarea {
   background: transparent;
-  border: 2px solid #00313F;
+  border: 2px solid #28D7FE;
   border-radius: 0.5rem;
   color: white;
   padding: 1.5rem;
@@ -315,6 +315,22 @@ h2 {
 }
 
 .form-button:hover {
+  background-color: #28d7fe;
+  color: black;
+  cursor: grab;
+}
+
+.download {
+  background: transparent;
+  border: 2px solid #28D7FE;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1.5rem;
+  width: 300px;
+  margin: 5px;
+}
+.download:hover {
+  cursor: grab;
   background-color: #28d7fe;
   color: black;
 }
