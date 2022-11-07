@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import "./fonts/neonderthaw-regular-webfont.woff"
 import "./fonts/neonderthaw-regular-webfont.woff2"

@@ -30,7 +30,7 @@ function Header() {
                         </a>
                     </div>
                 </div>
-                <Typewriter
+                <Typewriter 
                     options={{ loop: true }}
                     onInit={(typewriter) => {
 

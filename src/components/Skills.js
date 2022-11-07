@@ -74,7 +74,7 @@ function Skills() {
                     </li>
                     <li>
                         <img src='technologiesImg/materialize.png' />
-                        MATERIALIZE CSS
+                        MATERIALIZE
                     </li>
                 </ul>
             </div>

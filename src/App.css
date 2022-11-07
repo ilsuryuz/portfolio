@@ -6,14 +6,14 @@
   font-style: normal;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 a {
   text-decoration: none;
   color: inherit;
-}
-:root{
-  width: 100%;
-  
-  position: relative;
 }
 
 .slider-single-content {
@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  
+  height: auto;
   
 }
 
@@ -140,7 +140,8 @@ li{
   margin-left: 10px;
   text-align: left;
   font-size: large;
-  
+  width: 700px;
+
 }
 .about-content > img {
   width: 250px;
@@ -152,6 +153,7 @@ li{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -265,4 +267,54 @@ h2 {
 .tool-list > li > img {
   width: 50px;
   height: 50px;
+}
+
+.Typewriter__wrapper {
+  font-size: x-large;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+}
+.contact-content > form {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-content > form > input, textarea {
+  background: transparent;
+  border: 2px solid #00313F;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1.5rem;
+  resize: none;
+  width: 300px;
+  margin: 5px;
+}
+
+.contactopt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  box-shadow: #28d7fe 1px 0 20px 5px;
+  border-radius: 25px;
+  width: 250px;
+}
+
+.contactopt > ion-icon {
+  font-size: x-large;
+}
+
+.contactopt > a {
+  color: #28D7FE;
+}
+
+.form-button:hover {
+  background-color: #28d7fe;
+  color: black;
 }

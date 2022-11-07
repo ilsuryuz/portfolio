@@ -164,6 +164,7 @@ function Projects() {
           </div>
         </div>
       </div>
+      <hr />
     </section>
   )
 }
