@@ -2,13 +2,15 @@ import React from 'react'
 import Typewriter from 'typewriter-effect'
 import { Carousel } from '3d-react-carousal'
 import { IonIcon } from '@ionic/react'
-import { logoGithub, logoLinkedin, idCard, fileTrayStacked, codeWorking, caretUpCircle, document, mail } from 'ionicons/icons'
+import { logoGithub, logoLinkedin, idCard, fileTrayStacked, codeWorking, caretUpCircle, mail } from 'ionicons/icons'
 function Header() {
     let slides = [
-        <img className="profile" src="1.png" alt="1" />,
-        <img className="profile" src="3.png" alt='2' />,
-        <img className="profile" src="4.png" alt="3" />,
-        <img className="profile" src="2.png" alt="4" />,];
+        <img className="profile" src="4.png" alt="1" />,
+        <img className="profile" src="5.png" alt='2' />,
+        <img className="profile" src="1.png" alt="3" />,
+        <img className="profile" src="2.png" alt="4" />,
+        <img className='profile' src='6.png' alt='5' />,
+        <img className='profile' src='3.png' alt='6' />];
     return (
         <header>
             <div className='profile-content flux'>
@@ -55,10 +57,6 @@ function Header() {
                     <li>
                         <IonIcon icon={caretUpCircle} />
                         <a href='#totop'>To Top</a>
-                    </li>
-                    <li>
-                        <IonIcon icon={document} />
-                        <a href='#resume'>Resume</a>
                     </li>
                     <li>
                         <IonIcon icon={idCard} />

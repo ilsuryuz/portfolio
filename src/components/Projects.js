@@ -16,30 +16,30 @@ function Projects() {
               GitHub
             </a>
           </div>
-          <img src='/projects/scap.png'></img>
+          <img src='/projects/scap.png' alt='scap'></img>
           <p>
-            A forum like website, were you can view various posts. Create an account and chat with users that are online. Create your own threads, and reply to other posts.
+            A forum like website, where you can view various posts. Create an account and chat with users that are online. Create your own threads, and reply to other posts.
           </p>
           <div>
             <ul className='tool-list'>
               <li>
-                <img src='technologiesImg/js.png' />
+                <img src='technologiesImg/js.png' alt='js' />
                 JAVASCRIPT
               </li>
               <li>
-                <img src='technologiesImg/nodejs.png' />
+                <img src='technologiesImg/nodejs.png' alt='expressjs'/>
                 EXPRESSJS
               </li>
               <li>
-                <img src='technologiesImg/mongodb.png' />
+                <img src='technologiesImg/mongodb.png' alt='mongodb'/>
                 MONGODB
               </li>
               <li>
-                <img src='technologiesImg/socketio.svg' />
+                <img src='technologiesImg/socketio.svg' alt='socketio'/>
                 SOCKETIO
               </li>
               <li>
-                <img src='technologiesImg/css3.png' />
+                <img src='technologiesImg/css3.png' alt='css3'/>
                 CSS3
               </li>
             </ul>
@@ -56,30 +56,30 @@ function Projects() {
               GitHub
             </a>
           </div>
-          <img src='/projects/vibevoyage.png'></img>
+          <img src='/projects/vibevoyage.png' alt='vibevoyage'></img>
           <p>
             This app was made in a team of four. VibeVoyage was made for users to leave kind notes to themselves with abilities to edit or delete them. Users can also relax with provided meditation and breathing videos.
           </p>
           <div>
             <ul className='tool-list'>
               <li>
-                <img src='technologiesImg/mongodb.png' />
+                <img src='technologiesImg/mongodb.png' alt='mongodb' />
                 MONGODB
               </li>
               <li>
-                <img src='technologiesImg/nodejs.png' />
+                <img src='technologiesImg/nodejs.png' alt='expressjs'/>
                 EXPRESSJS
               </li>
               <li>
-                <img src='technologiesImg/react.png' />
+                <img src='technologiesImg/react.png' alt='react'/>
                 REACT
               </li>
               <li>
-                <img src='technologiesImg/nodejs.png' />
+                <img src='technologiesImg/nodejs.png' alt='nodejs'/>
                 NODEJS
               </li>
               <li>
-                <img src='technologiesImg/css3.png' />
+                <img src='technologiesImg/css3.png' alt='css3'/>
                 CSS3
               </li>
             </ul>
@@ -89,37 +89,37 @@ function Projects() {
         <div className='project-card'>
           <h2>KarMa</h2>
           <div className='card-links  flux'>
-            <a className='' target="_blank" rel="noopener noreferrer" href="https://vibe-voyage.netlify.app/">
+            <a className='' target="_blank" rel="noopener noreferrer" href="https://karmasite.herokuapp.com/">
               App
             </a>
             <a className='' target="_blank" rel="noopener noreferrer" href="https://github.com/ilsuryuz/KarMa">
               GitHub
             </a>
           </div>
-          <img src='/projects/karma.png'></img>
+          <img src='/projects/karma.png' alt='karma'></img>
           <p>
           This is a social media app where people who like cars can post own cars as well as browse other peoples posts. I love cars especiallys the ones made in the 90 and was happy building this application with django! Enjoy!
           </p>
           <div>
             <ul className='tool-list'>
               <li>
-                <img src='technologiesImg/python.png' />
+                <img src='technologiesImg/python.png' alt='python'/>
                 PYTHON
               </li>
               <li>
-                <img src='technologiesImg/django.svg' />
+                <img src='technologiesImg/django.svg' alt='django'/>
                 DJANGO
               </li>
               <li>
-                <img src='technologiesImg/psql.png' />
+                <img src='technologiesImg/psql.png' alt='postgresql'/>
                 POSTGRESQL
               </li>
               <li>
-                <img src='technologiesImg/materialize.png' />
+                <img src='technologiesImg/materialize.png' alt='materializecss'/>
                 MATERIALIZE.CSS
               </li>
               <li>
-                <img src='technologiesImg/aws.png' />
+                <img src='technologiesImg/aws.png' alt='aws'/>
                 AWS
               </li>
             </ul>
@@ -129,14 +129,14 @@ function Projects() {
         <div className='project-card'>
           <h2>Game Info</h2>
           <div className='card-links  flux'>
-            <a className='' target="_blank" rel="noopener noreferrer" href="https://vibe-voyage.netlify.app/">
+            <a className='' target="_blank" rel="noopener noreferrer" href="https://game-info-project.netlify.app/">
               App
             </a>
             <a className='' target="_blank" rel="noopener noreferrer" href="https://github.com/ilsuryuz/Game-Info">
               GitHub
             </a>
           </div>
-          <img src='/projects/gameinfo.png'></img>
+          <img src='/projects/gameinfo.png' alt='gameinfo'></img>
           <p>
             This was my first ever app built!
             This app is used as a little WIKI to find out information about characters, maps, weapons, in the game Valorant.
@@ -145,19 +145,19 @@ function Projects() {
           <div>
             <ul className='tool-list'>
               <li>
-                <img src='technologiesImg/js.png' />
+                <img src='technologiesImg/js.png' alt='javascript'/>
                 JAVASCRIPT
               </li>
               <li>
-                <img src='technologiesImg/html5.png' />
+                <img src='technologiesImg/html5.png' alt='html5'/>
                 HTML5
               </li>
               <li>
-                <img src='technologiesImg/css3.png' />
+                <img src='technologiesImg/css3.png' alt='css3'/>
                 CSS3
               </li>
               <li>
-                <img src='technologiesImg/jquery.png' />
+                <img src='technologiesImg/jquery.png' alt='jquery'/>
                 JQUERY
               </li>
             </ul>
